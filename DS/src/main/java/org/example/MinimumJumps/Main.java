@@ -1,4 +1,4 @@
-package org.example;
+package org.example.MinimumJumps;
 class Solution {
     public int solve(int[] A) {
         int n= A.length;
