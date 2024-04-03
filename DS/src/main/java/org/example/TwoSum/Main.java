@@ -21,7 +21,7 @@ public class Main {
     public static void main(String[] args) {
         int n = 5;
         int[] arr = {2, 6, 5, 8, 11};
-        int target = 14;
+        int target = 13;
         int[] ans1 = twoSum(n, arr, target);
         System.out.println("The answer for variant 2 using MAP: [" + ans1[0] + ", "
                 + ans1[1] + "]");
