@@ -20,8 +20,8 @@ public class Main {
 
     public static void main(String[] args) {
         int n = 5;
-        int[] arr = {2, 6, 5, 8, 11};
-        int target = 13;
+        int[] arr = {2, 13, 8, 5, 13, 11};
+        int target = 21;
         int[] ans1 = twoSum(n, arr, target);
         System.out.println("The answer for variant 2 using MAP: [" + ans1[0] + ", "
                 + ans1[1] + "]");
@@ -30,7 +30,7 @@ public class Main {
                 + ans2[1] + "]");
     }
 
-    private static int[] twoSum2(int n, int[] arr, int target) {
+    private static int[] twoSum2(int n, int[] arr, int target) {  //fails with unsorted
         int[] ans = {-1,-1};
         int l=0,r=n-1;
         while(l<r){
