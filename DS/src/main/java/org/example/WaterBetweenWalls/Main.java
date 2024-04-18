@@ -28,6 +28,9 @@ public class Main {
         int n = 5;
         ArrayList<Integer> arr = new ArrayList<>();
         arr.add(1);arr.add(5);arr.add(4);arr.add(3);
+        for(Integer i :arr){
+            System.out.println(i);
+        }
         int ans1 = maxArea( arr );
         System.out.println("Max Area:" +ans1 );
     }
